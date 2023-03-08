@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'FontName'; 
+	src: url(ofont.ru_Nikoleta.ttf); 
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+body h3{
+    color: rgb(255, 255, 255);
+}
+body h1{
+    font-family: 'FontName';
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+}
+body input{
+    width: 200px; 
+    color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
+    border-color: gray;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body button{
+    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 13px; 
+    border-color: gray;
+}
+body .p1{
+    font-family: 'FontName';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+}
+
+body .p2{
+    font-family: 'FontName';
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
